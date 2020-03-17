@@ -1,9 +1,11 @@
 # CFGrepo
 
-# my first repo with cfg
+# Hi, I think we need to allocate ourselves to roles or each webpage
 
-# hello
+# since there are 3 of us one for the lungs, heart and brain
 
-# bye
+# we can all work on the main page main-page.html
 
-# Alaina has access
+# Reply here --->
+
+
