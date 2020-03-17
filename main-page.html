@@ -1,49 +1,60 @@
 <!DOCTYPE html5>
 <html>
-    <header lang="en">
-        <meta charset="utf-8">
-         <title>
-            Human Body
-        </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href=./styles.css>
-    </header>
-    <body>
+  <header lang="en">
+    <meta charset="utf-8" />
+    <title>
+      Human Body
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
-        <nav class="navbar navbar-expand-sm bg-dark">
-
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./brain.html">Link 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./lungs.html">Link 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./heart.html">Link 3</a>
-              </li>
-            </ul>
-          
-          </nav>
-
-          <div class="col-sm-2">
-            About...
+    <link rel="stylesheet" type="text/css" href=./styles.css>
+  </header>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm navbar navbar-light"
+      style="background-color: #fff2e6"
+    >
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./brain.html">The Brain</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./lungs.html">The Lungs</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./heart.html">The Heart</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="container">
+            <h1>About</h1>
+            <p>The human body is a complex system.</p>
           </div>
+        </div>
 
-          <div class="media flex-column col-sm-4">
-            <figure>
-                <img src="skeleton.png" alt="Skeleton">
-                <figcaption>Skeleton</figcaption>
-            </figure>
-            
-            
+        <div class="media flex-column col-sm-4">
+          <figure>
+            <img src="skeleton.png" alt="Skeleton" />
+            <figcaption>Skeleton</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="container">
+            <h1>Did you know..</h1>
+            <p>Fun facts:</p>
           </div>
-
-          <div class="col-sm-3">
-            Did you know....
-          </div>
-
-    </body>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
