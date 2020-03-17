@@ -11,12 +11,19 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </header>
   <body>
     <nav
-      class="navbar navbar-expand-sm navbar navbar-light text-center justify-content-center"
+      class="navbar navbar-expand-sm navbar navbar-light justify-content-center"
     >
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
@@ -31,6 +38,15 @@
         </li>
       </ul>
     </nav>
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="50,30,270,350"
+        alt="Computer"
+        href="heart.html"
+      />
+    </map>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-2">
@@ -42,7 +58,7 @@
 
         <div class="media flex-column col-sm-4">
           <figure>
-            <img src="skeleton.png" alt="Skeleton" />
+            <img src="skeleton.png" alt="Skeleton" usemap="#workmap" />
             <figcaption>Skeleton</figcaption>
           </figure>
         </div>

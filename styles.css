@@ -1,13 +1,23 @@
-* {
+html {
   background-color: #cce6ff;
 }
 
 nav {
   background-color: #66b3ff;
+  text-align: center;
 }
 
 .container {
+  margin: 5%;
   border: solid black 1px;
   padding: 5%;
   background-color: white;
+}
+
+.nav-link:hover {
+  background-color: cadetblue;
+}
+
+figure {
+  margin: 5%;
 }
