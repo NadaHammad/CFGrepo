@@ -1,8 +1,13 @@
-.container {
-    border: solid black 1px;
-    padding: 5%;
+* {
+  background-color: #cce6ff;
 }
 
-*{
-background-color:#fff2e6;
+nav {
+  background-color: #66b3ff;
+}
+
+.container {
+  border: solid black 1px;
+  padding: 5%;
+  background-color: white;
 }
