@@ -9,11 +9,20 @@ nav {
 
 .container {
   margin: 5%;
-  border: solid black 1px;
+  border: solid lightgrey 1px;
   padding: 5%;
   background-color: white;
 }
 
+map {
+  background-color: pink;
+  outline-color: pink;
+}
+
+map.hover {
+  background-color: blueviolet;
+  outline-color: blueviolet;
+}
 .nav-link:hover {
   background-color: cadetblue;
 }
