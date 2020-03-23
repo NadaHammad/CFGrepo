@@ -15,6 +15,8 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+
+    <script src="./script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -22,24 +24,46 @@
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </header>
   <body>
-    <nav
-      class="navbar navbar-expand-sm navbar navbar-light justify-content-center"
-    >
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./brain.html">The Brain</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./lungs.html">The Lungs</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./heart.html">The Heart</a>
-        </li>
-      </ul>
-    </nav>
+    <center>
+      <nav class="navbar navbar-expand-sm navbar-light justify-content-center ">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./main-page.html">Main page</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./brain.html">The Brain</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./lungs.html">The Lungs</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./heart.html">The Heart</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./quiz.html">Quiz</a>
+          </li>
+        </ul>
+      </nav>
+    </center>
     <map name="workmap">
-      <area shape="rect" coords="175,2,350,200" alt="Head" href="heart.html" />
+      <area
+        onmouseover="changeColor(this)"
+        id="mapId"
+        shape="rect"
+        coords="250,230,360,350"
+        alt="heart"
+        href="heart.html"
+      />
+      <area
+        onmouseover="changeColor(this)"
+        id="mapId"
+        shape="rect"
+        coords="170,220,360,460"
+        alt="heart"
+        href="lungs.html"
+      />
+      <area shape="rect" coords="175,2,350,200" alt="head" href="brain.html" />
     </map>
 
     <div class="container-fluid">
@@ -47,7 +71,11 @@
         <div class="col-sm-2">
           <div class="container">
             <h1>About</h1>
-            <p>The human body is a complex system.</p>
+            <p>
+              The human body is a complex system. But don't worry we are here to
+              help! You will learn some fun facts about the brain, heart and
+              lungs... have fun exploring!
+            </p>
           </div>
         </div>
 
@@ -59,9 +87,20 @@
         </div>
 
         <div class="col-sm-3">
-          <div class="container">
+          <div class="container move">
             <h1>Did you know..</h1>
             <p>Fun facts:</p>
+            <ul>
+              <li>
+                Laid end to end, an adult’s blood vessels could circle Earth’s
+                equator four times!
+              </li>
+              <li>
+                The average person has 67 different species of bacteria in their
+                belly button.
+              </li>
+              <li>You lose about 4kg of skin cells every year!</li>
+            </ul>
           </div>
         </div>
       </div>
