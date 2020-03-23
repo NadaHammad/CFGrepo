@@ -82,8 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "How many chambers does the heart have?",
-      answers: {
+      quesers: {
         a: "2",
         b: "5",
         c: "4"
